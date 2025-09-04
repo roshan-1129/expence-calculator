@@ -1,62 +1,57 @@
 # expence calculator
 it shows a graph for calculating monthly expences
-# 📑 PDF Merger using Python  
+# 💰 Monthly Expense Calculator  
 
-A simple Python project that merges multiple PDF files into a single PDF document.  
-This project is useful for students, professionals, and anyone who frequently works with PDFs.  
-
----
+A Python project that helps track and visualize monthly expenses using a CSV file and graphs.  
+This project is useful for anyone who wants to manage personal finances and analyze spending patterns.  
 
 ## 🚀 Features  
-- Merge multiple PDF files into one  
-- Easy to use and customize  
-- Lightweight and efficient  
-
----
+- Add and manage monthly expenses  
+- Store expenses in a CSV file  
+- Generate graphs for better visualization  
+- Easy to use and extend  
 
 ## 🛠️ Tech Stack  
-- Python 🐍  
-- [pypdf](https://pypi.org/project/pypdf/) library  
+- Python 🐍   
+- Matplotlib 📉  
 
----
 
 ## 📂 Project Structure  
-pdf-merger/
-│── pdf_merger.py # Main Python script
-│── file1.pdf # Sample input PDF
-│── file2.pdf # Sample input PDF
-│── merged.pdf # Output file after merging
+expence-calculator/
+│── expence-calculator.py # Main Python script
+│── expenses.csv # Stores monthly expense data
 │── README.md # Project documentation
+│── .gitattributes # Git attributes file
+
 
 ## ▶️ How to Run  
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YourUsername/pdf-merger.git
-Navigate into the folder:
+   git clone https://github.com/YourUsername/expence-calculator.git
+Navigate into the project folder:
 
 bash
 Copy code
-cd pdf-merger
+cd expence-calculator
 Install dependencies:
 
 bash
 Copy code
-pip install pypdf
+pip install pandas matplotlib
 Run the script:
 
 bash
 Copy code
-python pdf_merger.py
-Your merged PDF will be saved as merged.pdf 🎉
+python expence-calculator.py
 
-📸 Example Output
-✅ If you input file1.pdf + file2.pdf + file3.pdf, you’ll get a single combined PDF named merged.pdf.
+📊 Example Output
+The program generates a graph that shows your monthly expenses.
+Example: A bar/line chart comparing expenses across months.
 
 🤝 Contributing
-Feel free to fork this repo, raise issues, or submit pull requests to improve the project.
+Feel free to fork this repository, raise issues, or submit pull requests to improve the project.
 
 📧 Contact
 Created by Roshan S
 https://github.com/roshan-1129/expence-calculator
-
